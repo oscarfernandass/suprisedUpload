@@ -66,7 +66,7 @@ app.post('/upload', upload.single('image'), (req, res) => {
 
           if (remainingTime <= 0) {
             // Redirect when the countdown reaches 0
-            window.location.href = 'http://localhost:4000/#downside'; // Redirect to your original localhost
+            window.location.href = 'https://suprised-emotionex.onrender.com/#downside'; // Redirect to your original localhost
           }
         }
 
